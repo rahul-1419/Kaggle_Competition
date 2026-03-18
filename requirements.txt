@@ -2,3 +2,5 @@ pandas
 numpy
 matplot
 seaborn
+gdown
+ipykernel
