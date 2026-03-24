@@ -4,3 +4,5 @@ matplot
 seaborn
 gdown
 ipykernel
+psycopg2
+sqlalchemy
