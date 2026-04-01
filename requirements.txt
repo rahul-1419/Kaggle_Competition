@@ -6,3 +6,9 @@ gdown
 ipykernel
 psycopg2
 sqlalchemy
+python-box
+pyYAML
+tqdm
+ensure==1.0.2
+types-PyYAML
+joblib

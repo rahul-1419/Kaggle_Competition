@@ -1,0 +1,30 @@
+artifacts_root: artifacts
+
+
+data_extraction:
+  root_dir: artifacts/data_extraction
+  file_id: 1YrM3IEYjeYIu-Bx1lslPfDc45GWkHWEY
+  local_data_file: artifacts/data_extraction/data.zip
+  unzip_dir: artifacts/data_extraction
+
+data_transformation:
+  root_dir: artifacts/data_transformation
+  inventory: artifacts/data_extraction/inventory_snapshots_2024.csv
+  product: artifacts/data_extraction/products_2024.csv
+  promotion: artifacts/data_extraction/promotions_2024.csv
+  sale_q1: artifacts/data_extraction/sales_2024_q1.csv
+  sale_q2: artifacts/data_extraction/sales_2024_q2.csv
+  sale_q3: artifacts/data_extraction/sales_2024_q3.csv
+  sale_q4: artifacts/data_extraction/sales_2024_q4.csv
+  inventory_t: artifacts/data_transformation/inventory.csv
+  products_t: artifacts/data_transformation/products.csv
+  promotion_t: artifacts/data_transformation/promotion.csv
+  sales_t: artifacts/data_transformation/sales.csv
+
+data_loading:
+  root_dir: artifacts/data_loading
+  inventory: artifacts/data_transformation/inventory.csv
+  products: artifacts/data_transformation/products.csv
+  promotion: artifacts/data_transformation/promotion.csv
+  sales: artifacts/data_transformation/sales.csv
+  password: Guggli190502
